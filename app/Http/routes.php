@@ -18,6 +18,8 @@ Route::get('/', function()
 
 //Route::get('/', 'WelcomeController@index');
 
+Route::get('form', 'MyController@form');
+
 Route::get('home', 'HomeController@index');
 
 Route::controllers([
