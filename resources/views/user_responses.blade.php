@@ -24,7 +24,7 @@
 							<td>{{ $response->comments }}</td>
 							<td>{{ $response->reason }}</td>
 							<td>{{ $response->respond }}</td>
-							<td>{{ $response->date }}</td>
+							<td>{{ $response->date}}</td>
 						</tr>
 					@endforeach
 				</table>

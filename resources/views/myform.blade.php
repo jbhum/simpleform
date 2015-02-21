@@ -13,6 +13,9 @@
 @section('content-bottom')
 	<div class="container">
 	<div class="container">
+		<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
 		<form method="POST" action="http://jbhum.cloudapp.net/" accept-charset="UTF-8">
 			<div class="form-group">
 				<input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -27,7 +30,7 @@
 				<hr>
 				<div class="container">
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-4">
 							<label for="user_reason">Reason for Contact</label>
 							<div  class="radio">
 								<label>
@@ -54,7 +57,7 @@
 								</label>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-4">
 							<label for="user_contact">How would you like us to contact you?</label>
 							<div  class="radio">
 								<label>
@@ -71,10 +74,13 @@
 						</div>
 					</div>
 				</div>
-				<input type="hidden" name="user_time" value="{{ Carbon\Carbon::now() }}">
+				<input type="hidden" name="user_time" value="{{ Carbon\Carbon::now(new DateTimeZone('America/Denver')) }}">
 			</div>
 			<button type="submit" class="btn btn-success btn-block">Submit!</button>
 		</form>
+		</div>
+		<div class="col-md-2"></div>
+		</div>
 	</div>
 	</div>
 @stop

@@ -34,8 +34,9 @@
 			</div>
 		</div>
 	</nav>
-
-	@yield('content-top')
+	<div class="container">
+		@yield('content-top')
+	</div>
 	@yield('content-bottom')
 	<div  class="container">
 		<hr>

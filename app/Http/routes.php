@@ -13,6 +13,8 @@
 
 Route::get('/', 'MyController@home');
 
+Route::get('home', 'MyController@home');
+
 //Route::get('/', 'WelcomeController@index');
 
 Route::get('form', 'MyController@form');
@@ -20,3 +22,7 @@ Route::get('form', 'MyController@form');
 Route::get('responses', 'MyController@responses');
 
 Route::post('/', 'MyController@store');
+
+Route::get('reset', 'MyController@reset');
+
+Route::post('reset/confirm', 'MyController@confirmation');

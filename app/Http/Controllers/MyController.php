@@ -36,6 +36,18 @@ class MyController extends Controller {
 		$response->reason = $input['user_reason'];
 		$response->respond = $input['user_contact'];
 		$response->date = $input['user_time'];
-		return $response;
+		$response->save();
+		return view('info', compact('response'));
+	}
+
+	public function reset()
+	{
+		return view('reset');
+	}
+
+	public function confirmation()
+	{
+		response::truncate();
+		return view('return_home');
 	}
 }
