@@ -17,7 +17,7 @@
 				<div class="col-md-2"></div>
 			<div class="col-md-2 text-center">
 				<!-- <div class="container"> -->
-				<img src="http://3.bp.blogspot.com/-JU9nBDHKpC4/T_p9yMNpezI/AAAAAAAAEdE/Ie6k9MjOAKk/s1600/funny+dogs+wallpaper_2.jpg" alt="Golden Retriever" class="img-rounded img-responsive">
+				<img src="http://www.funnypica.com/wp-content/uploads/2012/01/Funny-Dogs-Funny-Dog-Picture-19-FunnyPica.com_-1024x842.jpg" alt="Golden Retriever" class="img-rounded img-responsive">
 					<h1 class="text-center">Form</h1>
 					<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi maxime maiores placeat! Nesciunt perferendis totam ullam, ipsum tempora vitae ipsam accusamus molestiae eligendi aliquid id praesentium repudiandae, aperiam eum repellendus.</p>
 					<a href="/form" class="btn btn-primary btn-lg btn-block">Fill out Form</a>
@@ -37,7 +37,7 @@
 			</div>
 			<div class="col-md-1"></div>
 			<div class="col-md-2 text-center">
-				<img src="http://www.funnypica.com/wp-content/uploads/2012/01/Funny-Dogs-Funny-Dog-Picture-19-FunnyPica.com_-1024x842.jpg" alt="Golden Retriever" class="img-rounded img-responsive">
+				<img src="http://3.bp.blogspot.com/-JU9nBDHKpC4/T_p9yMNpezI/AAAAAAAAEdE/Ie6k9MjOAKk/s1600/funny+dogs+wallpaper_2.jpg" alt="Golden Retriever" class="img-rounded img-responsive">
 				
 				<!-- <div class="container"> -->
 					<h1 class="text-center">Reset Database</h1>

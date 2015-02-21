@@ -15,9 +15,11 @@
 					<input type="hidden" name="_token" value="{{ csrf_token() }}">						
 					<button type="submit" class="btn btn-danger btn-block btn-lg">Delete Everything</button>
 				</form>
+				<hr>
 			</div>
 			<div class="col-md-6">
 				<a href="/home" class="btn btn-success btn-lg btn-block">Go Back Home</a>
+				<hr>
 			</div>
 		</div>
 	</div>
