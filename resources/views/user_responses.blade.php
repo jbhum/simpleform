@@ -34,5 +34,8 @@
 					<p>	There don't appear to have been any user responses. Come back later!</p>
 				</div>
 			@endif
+			<div class="text-center">
+				<a href="/home" class="btn btn-success btn-lg">Go Back Home</a>
+			</div>
 		</div>
 @stop

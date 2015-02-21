@@ -26,3 +26,7 @@ Route::post('/', 'MyController@store');
 Route::get('reset', 'MyController@reset');
 
 Route::post('reset/confirm', 'MyController@confirmation');
+
+Route::get('{id}', function() {
+	App::abort(404, 'That page does not exist');
+});
