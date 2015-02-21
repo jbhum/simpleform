@@ -17,15 +17,18 @@
 		            <span class="icon-bar"></span>
 		            <span class="icon-bar"></span>
 		        </button>
-		        <a class="navbar-brand" href="/form">Simple Form</a>
+		        <a class="navbar-brand" href="/">Simple Form</a>
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li>
-						<a href="/form">Home</a>
+						<a href="/">Home</a>
 					</li>
 					<li>
-						<a href="/form">Away</a>
+						<a href="/form">Form</a>
+					</li>
+					<li>
+						<a href="/responses">Responses</a>
 					</li>
 				</ul>
 			</div>
@@ -34,12 +37,13 @@
 
 	@yield('content-top')
 	@yield('content-bottom')
+	<div  class="container">
+		<hr>
 
-	<hr>
-
-	<footer>
-	<p>&copy; Joshua Humpherys 2015</p>
-	</footer>
+		<footer>
+		<p>&copy; Joshua Humpherys 2015</p>
+		</footer>
+	</div>
 
 
 	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>

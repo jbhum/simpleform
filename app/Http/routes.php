@@ -11,18 +11,12 @@
 |
 */
 
-Route::get('/', function()
-{
-	return 'Hello World';
-});
+Route::get('/', 'MyController@home');
 
 //Route::get('/', 'WelcomeController@index');
 
 Route::get('form', 'MyController@form');
 
-Route::get('home', 'HomeController@index');
+Route::get('responses', 'MyController@responses');
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+Route::post('/', 'MyController@store');
