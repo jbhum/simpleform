@@ -1,4 +1,4 @@
-## Laravel PHP Framework
+## Super Awesome Form!
 
 This is a simple example of a site that takes input in a form and on the next page it will show you the information that was input.
 
