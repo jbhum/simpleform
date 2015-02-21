@@ -12,7 +12,7 @@ This app uses the Bootstrap framework. There is no Custom CSS. It is fully respo
 
 #### MySQL Database
 
-This app uses a MySQL Database to store the information entered in the form. 
+This app uses a MySQL Database to store the information entered in the form. In order for you to test the app completely you can check out where I have it [hosted](http://jbhum.cloudapp.net) or you can spin up your own database, import your own .env file that links to that database and test it on your own locally hosted system.
 
 #### Laravel Framework
 
