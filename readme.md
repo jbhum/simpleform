@@ -1,6 +1,9 @@
 ## Super Awesome Form!
 
 This is a simple example of a site that takes input in a form and on the next page it will show you the information that was input.
+you can check it out [here](http://simpleform.humpherys.xyz)
+
+---------
 
 ### Extra Features
 
@@ -20,5 +23,5 @@ This project was developed entirely in [Laravel](http://laravel.com)
 
 #### Hosting
 
-I am hosting this app at [jbhum.cloudapp.net](http://jbhum.cloudapp.net). Feel free to go and check it out!
+I am hosting this app at [simpleform.humpherys.xyz](http://simpleform.humpherys.xyz). Feel free to go and check it out!
 
